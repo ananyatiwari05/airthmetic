@@ -1,4 +1,4 @@
-# Fuzzy AQI Estimator: Because Air Deserves Better Math
+# Airthmetic: fuzzy AQI estimator
 
 Not all pollution is black and white—so why treat it that way?  
 This Python project brings in the power of **fuzzy logic** to estimate the **Air Quality Index (AQI)** using soft rules, smooth transitions, and data from real Indian cities. We don’t just classify air—we understand it.
@@ -14,7 +14,6 @@ This Python project brings in the power of **fuzzy logic** to estimate the **Air
 ## folder structure
 
 ```
-
 aqi fuzzy/
 ├── aqi-fuzzy.py        ← Main fuzzy logic script
 ├── city\_day.csv        ← Input dataset from Kaggle
@@ -24,7 +23,7 @@ aqi fuzzy/
 
 ## data-set source
 
-- 📍 Kaggle Dataset: [Air Quality Data in India (2015–2020)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
+- Kaggle Dataset: [Air Quality Data in India (2015–2020)](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
 - File Used: `city_day.csv`
 - Filters Applied: **City = Delhi**, **Year = 2019**
 
@@ -72,8 +71,10 @@ pip install numpy pandas matplotlib scikit-fuzzy
   * 4–6: Moderate
   * 6–8: Poor
   * 8–10: Hazardous
-* Zoomed-in view to highlight subtle air quality changes
 * Sharp, clean plots ready for reports or dashboards
+  
+<img width="1400" height="700" alt="Screenshot 2025-07-27 at 4 30 44 PM" src="https://github.com/user-attachments/assets/bd1a4bd0-ef04-41f0-8a41-73e5f20b1169" />
+
 
 ## run it
 

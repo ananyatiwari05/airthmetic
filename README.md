@@ -27,7 +27,7 @@ aqi fuzzy/
 - File Used: `city_day.csv`
 - Filters Applied: **City = Delhi**, **Year = 2019**
 
-## fuzzy and dizzy
+## fuzzy and python
 
 - Title: *Fuzzy Based Air Quality Index Estimation*
 - Focus: Using fuzzy sets and rules to model AQI under uncertainty
